@@ -4,7 +4,7 @@ library(dplyr)
 library(ggplot2)
 
 # Read the data
-air_quality <- read_csv("C:/Users/Dell/OneDrive/Desktop/Project/combined_data.csv", 
+air_quality <- read_csv("combined_data.csv", 
                         col_types = cols(`Date.and.Time` = col_datetime(format = "%d-%m-%Y %H:%M"),
                                          `PM.sub.10..sub.` = col_double(),
                                          `PM.sub.2.5..sub.` = col_double(),
